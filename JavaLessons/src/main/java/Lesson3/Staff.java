@@ -12,9 +12,10 @@ public class Staff {
   private int wage;
   private int age;
 
-    public int getAge() {
+    public int getAge(){
         return age;
     }
+
 
    public Staff (String name, String position, String email, String phoneNo, int wage, int age){
        this.name=name;
